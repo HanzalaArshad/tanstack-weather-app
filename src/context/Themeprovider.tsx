@@ -8,7 +8,7 @@ type ThemeProviderProps = {
   storageKey?: string
 }
 
-type ThemeProviderState = {
+type ThemeProviderState= {
   theme: Theme
   setTheme: (theme: Theme) => void
 }

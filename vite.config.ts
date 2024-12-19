@@ -9,7 +9,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  server: {
-    port: 3000, // Default port ko 3000 par set karna
-  },
 });

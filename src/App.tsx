@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "./components/Layout"
-import { ThemeProvider } from "./context/themeprovider"
 import WeatherDashboard from "./pages/WeatherDashboard"
 import CityPages from "./pages/CityPages"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { ThemeProvider } from "./context/themeprovider"
 
 const App = () => {
 
